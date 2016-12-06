@@ -1,0 +1,17 @@
+% lattice transform plot
+
+n1 = 5;
+n2 = 10;
+n3 = 100;
+N = 500;
+x = linspace(-3,3,N);
+
+y1 = abs((sin(pi*n1*x)./sin(2*pi*x)));
+y2 = abs((sin(pi*n2*x)./sin(2*pi*x)));
+y3 = abs((sin(2*pi*n3*x)./sin(2*pi*x)));
+
+% plot(x,y1,'r',x,y2,'b',x,y3,'y');
+subplot(2,1,1);
+plot(x,y1,'r',x,y2,'b');
+subplot(2,1,2);
+plot(x,y3,'b');

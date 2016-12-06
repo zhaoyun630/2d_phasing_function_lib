@@ -1,0 +1,14 @@
+R_factor = importdata('r_factor_5000iter_hkl_1A_sf70.mat');
+iter_num_total = length(R_factor);
+iter_num = linspace(1,iter_num_total,iter_num_total);
+plt1 = figure(1);
+plot(iter_num,R_factor,'-b.');
+lg1_text1 = strcat('total iteration: ',int2str(iter_num_total)); 
+% lg1_text2 = strcat('weak reflection percentage:' , int2str(weak_amp_percent));
+% legend(lg1_text1,lg1_text2);
+% text(700,1.54,lg1_text1,'FontSize', 15,'FontWeight','bold');
+% text(700,1.53,lg1_text2,'FontSize', 15,'FontWeight','bold');
+xlabel('iteration','FontSize', 15,'FontWeight','bold');
+ylabel('R factor','FontSize', 15,'FontWeight','bold');
+% rectangle('Position',[690,1.525,250,0.022]);
+% saveas(plt1,'r_factor_hkl_iteration_100_1A_sf70.tif');

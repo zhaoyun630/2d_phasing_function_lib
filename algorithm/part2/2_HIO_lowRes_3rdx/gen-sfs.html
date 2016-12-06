@@ -1,0 +1,1896 @@
+<B><FONT COLOR="#FF0000"><!--SUMMARY_BEGIN-->
+<html> <!-- CCP4 HTML LOGFILE -->
+<hr>
+<!--SUMMARY_END--></FONT></B>
+<B><FONT COLOR="#FF0000"><!--SUMMARY_BEGIN-->
+<pre>
+ 
+ ###############################################################
+ ###############################################################
+ ###############################################################
+ ### CCP4 6.4: SFALL                    version 6.4 :         ##
+ ###############################################################
+ User: yunzhao  Run date: 31/ 5/2016 Run time: 16:01:11 
+
+
+ Please reference: Collaborative Computational Project, Number 4. 1994.
+ "The CCP4 Suite: Programs for Protein Crystallography". Acta Cryst. D50, 760-763.
+ as well as any specific reference in the program write-up.
+
+<!--SUMMARY_END--></FONT></B>
+
+ Memory allocation (logical name, type, elements):
+   MEMSIZE R      5000000
+   MEMSIZE I      5000000
+
+FORMATTED      OLD     file opened on unit  45
+<B><FONT COLOR="#FF0000"><!--SUMMARY_BEGIN-->
+Logical name: ATOMSF, Filename: /Applications/ccp4-6.4.0/lib/data/atomsf.lib
+<!--SUMMARY_END--></FONT></B>
+
+ Data line--- MODE SFCALC XYZIN
+ Data line--- RESOLUTION 2.1 1000
+ Data line--- FORM NGAUSS 5
+ Data line--- SYMM p1
+
+ Spacegroup information obtained from library file: 
+ Logical Name: SYMINFO   Filename: /Applications/ccp4-6.4.0/lib/data/syminfo.lib
+
+Reciprocal space symmetry: 
+Space group: "P 1" Point group: "PG1" Laue group: "-1" 
+Reference asymmetric unit: "l>0 or (l==0 and (h>0 or (h==0 and k>=0)))" 
+  (change of basis may be applied) 
+
+ Spacegroup 1 "P 1" 
+ Original indices for reflection hkl with symmetry number ISYM 
+
+                              Bijvoet positive 
+       ISYM              ISYM              ISYM              ISYM              
+  ISYM   1  +h,+k,+l    
+
+                              Bijvoet negative 
+       ISYM              ISYM              ISYM              ISYM              
+  ISYM   2  -h,-k,-l    
+ Data line--- END
+ ***  Calculation symmetry using space-group CalcSpaceGroup    1 ***
+
+  Logical name: XYZIN  File name: 3rdx_full_c2221.pdb
+  PDB file is being opened on unit 1 for INPUT.
+
+  MATRICES DERIVED FROM CRYST1 CARD IN COORDINATE FILE
+
+
+             RF                                  RO
+
+    0.013  -0.000  -0.000  -0.000       79.250   0.000   0.000   0.000
+   -0.000   0.012  -0.000   0.000        0.000  81.640   0.000   0.000
+    0.000  -0.000   0.012  -0.000        0.000   0.000  84.537  -0.000
+   -0.000   0.000  -0.000   1.000       -0.000  -0.000  -0.000   1.000
+
+<B><FONT COLOR="#FF0000"><!--SUMMARY_BEGIN-->
+ 
+ $TEXT:Warning: $$ comment $$ 
+ WARNING: No crystal/dataset information given for new MTZ file.
+ $$
+<!--SUMMARY_END--></FONT></B>
+You are creating a new MTZ file (no HKLIN specified).
+It is recommended to sort out the crystal/dataset hierarchy now.
+Use the NAME keyword.
+
+
+
+ Form factors used are   
+ AtomName - formfac number -  (AI BI),I=1,NGauss - sum(AI)
+  Default value is 5 term gaussian
+  H       1     0.49300  10.51090     0.32291  26.12570
+                0.14019   3.14236     0.04081  57.79970     0.00304   0.00000     0.99995
+  C       2     2.31000  20.84390     1.02000  10.20750
+                1.58860   0.56870     0.86500  51.65120     0.21560   0.00000     5.99920
+  N       3    12.21260   0.00570     3.13220   9.89330
+                2.01250  28.99750     1.16630   0.58260   -11.52900   0.00000     6.99460
+  O       4     3.04850  13.27710     2.28680   5.70110
+                1.54630   0.32390     0.86700  32.90890     0.25080   0.00000     7.99940
+  S       5     6.90530   1.46790     5.20340  22.21510
+                1.43790   0.25360     1.58630  56.17200     0.86690   0.00000    15.99980
+
+ Title:  A run of SFALL
+
+ Structure Factor Calculation 
+      -  Atom file Read ***
+   Writes an output file H K L S FC ALPHAC    
+   For all Reflns within SINTHETA Limits  ***
+
+
+ Chain Names - First Residue - Last Residue - serial Kcount
+
+    INPUT X USED AS  X
+    INPUT Y USED AS  Z
+    INPUT Z USED AS  Y
+  Title 
+     A run of SFALL
+
+ Unit CELL Parameters are =    79.2500   81.6400   84.5370   90.0000   90.0000   90.0000
+ Space Group Number       =     1
+
+
+
+ Hmin, Kmin, Lmin, Hmax, Kmax, Lmax are   -38  -39    0   38   39   40
+
+
+ Sampling Intervals NX,NY,NZ are   176  180  190
+
+
+ Map dimensions are  X =     0 to   175 Y =     0 to   179 Z =     0 to   189
+
+
+ Minimum,Maximum 4(SNTH/L)**2 are  0.0000 and  0.2268
+  intervals of s for rfactor analysis are 1./   20
+
+
+ ie  Resolution Limits 1000.0 to    2.1 Angstroms
+
+
+ BADD =   0.00
+
+
+ Initial Value of Atom radius in "fc" MAP       2.50
+ This is modified by a factor Sqrt(B+25)/2PI to "spread"  the density for atoms with high B factors
+
+   Weight  Omit       0.00   1000.00
+
+
+ Scale  BfactOverall        1.00      0.00
+ FCALC is scaled by SCALE*exp(-BfactOverall*S/4)
+
+
+ DSmin DSmax       1.00      4.47
+ in refinement overall Scale and B are refined using 
+      reflections with DSMN < = D < = DSmax 
+
+
+
+
+ Reflections for which FOBS < -1.0 SIGMA Omitted
+
+
+ Breset is -1.00
+
+ Limits for atoms:     AXIS    MIN      MAX
+                         1  0.00000  1.00000
+                         2  0.00000  1.00000
+                         3 -0.02957  1.03062
+ 
+ 
+
+ Upper limits are:     AXIS    MIN      MAX
+                         1  0.03155  0.96845
+                         2  0.02957  0.97043
+                         3  0.03062  0.96938
+ 
+ 
+
+
+  First 10 atoms of atsort - orthog coordinates
+         1N    MET        11 14.5520 12.1080 16.1820 1.00   29.69    3
+   fractional coordinates  0.18362 0.14831 0.19142
+
+
+  First 10 atoms of atsort - orthog coordinates
+         2CA   MET        11 14.3120 12.3480 14.7210 1.00   28.89    2
+   fractional coordinates  0.18059 0.15125 0.17414
+         3C    MET        11 14.0470 13.8230 14.3440 1.00   30.87    2
+   fractional coordinates  0.17725 0.16932 0.16968
+         4O    MET        11 13.0890 14.1990 13.6090 1.00   30.94    4
+   fractional coordinates  0.16516 0.17392 0.16098
+         5CB   MET        11 13.2880 11.3790 14.0990 1.00   26.78    2
+   fractional coordinates  0.16767 0.13938 0.16678
+         6CG   MET        11 12.1100 10.9720 14.9670 1.00   24.71    2
+   fractional coordinates  0.15281 0.13439 0.17705
+         7SD   MET        11 10.9620 10.0570 13.8640 1.00   29.19    5
+   fractional coordinates  0.13832 0.12319 0.16400
+         8CE   MET        11 10.7240  8.5210 14.7980 1.00   24.12    2
+   fractional coordinates  0.13532 0.10437 0.17505
+         9N    THR        12 14.9320 14.6650 14.8590 1.00   32.63    3
+   fractional coordinates  0.18842 0.17963 0.17577
+        10CA   THR        12 15.2410 15.8650 14.1540 1.00   33.05    2
+   fractional coordinates  0.19232 0.19433 0.16743
+        11C    THR        12 15.7440 15.1750 12.8860 1.00   32.27    2
+   fractional coordinates  0.19866 0.18588 0.15243
+  First 10 atoms of sorted file in asym unit -  
+       10.13532   0.17505   0.10437    824.12 1.00         2   11CE   MET 
+       10.13832   0.16400   0.12319    729.19 1.00         5   11SD   MET 
+       10.15281   0.17705   0.13439    624.71 1.00         2   11CG   MET 
+       10.16767   0.16678   0.13938    526.78 1.00         2   11CB   MET 
+       10.18362   0.19142   0.14831    129.69 1.00         3   11N    MET 
+       10.18059   0.17414   0.15125    228.89 1.00         2   11CA   MET 
+       10.17725   0.16968   0.16932    330.87 1.00         2   11C    MET 
+       10.16516   0.16098   0.17392    430.94 1.00         4   11O    MET 
+       10.18842   0.17577   0.17963    932.63 1.00         3   12N    THR 
+       10.19232   0.16743   0.19433   1033.05 1.00         2   12CA   THR 
+
+  First atom of sorted file in atsort 
+       10.32787   0.72123  -0.02947 745221.44     51.00   84C    ARG 
+ Number of atoms input            =         15920
+ Number of atoms in sort          =       15920
+ Number in density generation     =  16818
+ Number completely within fft box =  15920
+     Minimum B =    37.79
+     Maximum B =    29.69
+     Average B =    22.19
+     Number of Bs < BfactReset =        0
+     Number of Bs > 99.99  =        0
+
+ WRITTEN OUTPUT MTZ FILE 
+ Logical Name: HKLOUT   Filename: 3rdx_full_c2221.pdb-yun.mtz 
+
+ * Title:
+
+  A run of SFALL
+
+ * Base dataset:
+
+        0 HKL_base
+          HKL_base
+          HKL_base
+
+ * Number of Datasets = 0
+
+ * Dataset ID, project/crystal/dataset names, cell dimensions, wavelength:
+
+
+ * Number of Columns = 5
+
+ * Number of Reflections = 123661
+
+ * Missing value set to NaN in input mtz file
+
+ * Column Labels :
+
+ H K L FC PHIC
+
+ * Column Types :
+
+ H H H F P
+
+ * Associated datasets :
+
+ 0 0 0 0 0
+
+ * Cell Dimensions : (obsolete - refer to dataset cell dimensions above)
+
+   79.2500   81.6400   84.5370   90.0000   90.0000   90.0000 
+
+ *  Resolution Range :
+
+    0.00014    0.22676     (     84.537 -      2.100 A )
+
+ * Sort Order :
+
+      1     2     3     0     0
+
+ * Space group = 'P 1' (number     1)
+
+<B><FONT COLOR="#FF0000"><!--SUMMARY_BEGIN-->
+ SFALL:   Normal Termination of structure factor calc.
+Times: User:       0.5s System:    0.0s Elapsed:     0:00  
+</pre>
+</html>
+<!--SUMMARY_END--></FONT></B>
+<B><FONT COLOR="#FF0000"><!--SUMMARY_BEGIN-->
+<html> <!-- CCP4 HTML LOGFILE -->
+<hr>
+<!--SUMMARY_END--></FONT></B>
+<B><FONT COLOR="#FF0000"><!--SUMMARY_BEGIN-->
+<pre>
+ 
+ ###############################################################
+ ###############################################################
+ ###############################################################
+ ### CCP4 6.4: CAD                      version 6.4 :         ##
+ ###############################################################
+ User: yunzhao  Run date: 31/ 5/2016 Run time: 16:01:11 
+
+
+ Please reference: Collaborative Computational Project, Number 4. 1994.
+ "The CCP4 Suite: Programs for Protein Crystallography". Acta Cryst. D50, 760-763.
+ as well as any specific reference in the program write-up.
+
+<!--SUMMARY_END--></FONT></B>
+ Data line--- TITLE Sorted blah
+ Data line--- LABIN FILE 1 E1=FC E2=PHIC
+ Data line--- CTYPE FILE 1 E1=F  E2=P
+    Indices output even if all data items flagged "missing"
+ Warning, NOT all LABOUT data lines given
+
+ OPENED INPUT MTZ FILE 
+ Logical Name: HKLIN1   Filename: 3rdx_full_c2221.pdb-yun.mtz 
+
+ * Title:
+
+  A run of SFALL
+
+ * Base dataset:
+
+        0 HKL_base
+          HKL_base
+          HKL_base
+
+ * Number of Datasets = 0
+
+ * Dataset ID, project/crystal/dataset names, cell dimensions, wavelength:
+
+
+ * Number of Columns = 5
+
+ * Number of Reflections = 123661
+
+ * Missing value set to NaN in input mtz file
+
+ * Column Labels :
+
+ H K L FC PHIC
+
+ * Column Types :
+
+ H H H F P
+
+ * Associated datasets :
+
+ 0 0 0 0 0
+
+ * Cell Dimensions : (obsolete - refer to dataset cell dimensions above)
+
+   79.2500   81.6400   84.5370   90.0000   90.0000   90.0000 
+
+ *  Resolution Range :
+
+    0.00014    0.22676     (     84.537 -      2.100 A )
+
+ * Sort Order :
+
+      1     2     3     0     0
+
+ * Space group = 'P 1' (number     1)
+
+
+ Spacegroup information obtained from library file: 
+ Logical Name: SYMINFO   Filename: /Applications/ccp4-6.4.0/lib/data/syminfo.lib
+
+Reciprocal space symmetry: 
+Space group: "P 1" Point group: "PG1" Laue group: "-1" 
+Reference asymmetric unit: "l>0 or (l==0 and (h>0 or (h==0 and k>=0)))" 
+  (change of basis may be applied) 
+
+ Spacegroup 1 "P 1" 
+ Original indices for reflection hkl with symmetry number ISYM 
+
+                              Bijvoet positive 
+       ISYM              ISYM              ISYM              ISYM              
+  ISYM   1  +h,+k,+l    
+
+                              Bijvoet negative 
+       ISYM              ISYM              ISYM              ISYM              
+  ISYM   2  -h,-k,-l    
+
+
+ Chosen Asymmetric unit of reciprocal space: 
+ [-1] hkl:l>=0  hk0:h>=0  0k0:k>=0
+
+
+ ** "Missing" flag set in HKLIN1 to Nan:
+
+
+ ** "Missing" entries LISTED as           -999.000
+ Data line--- LABIN  E1=FC E2=PHIC
+
+
+ After Processing File_Number:  1
+ Number of columns so far    :   5
+ Accumulated Out_Put_MTZ_labels are:
+  E11=FC  E21=PHIC 
+
+
+ MTZOUT_LABELS are H K L and -
+  FC  PHIC 
+        3 sort keys, in columns    1   2   3
+
+
+
+
+ Data line--- LABIN  E1=FC E2=PHIC
+
+ OPENED INPUT MTZ FILE 
+ Logical Name: HKLIN1   Filename: 3rdx_full_c2221.pdb-yun.mtz 
+
+ * Title:
+
+  A run of SFALL
+
+ * Base dataset:
+
+        0 HKL_base
+          HKL_base
+          HKL_base
+
+ * Number of Datasets = 0
+
+ * Dataset ID, project/crystal/dataset names, cell dimensions, wavelength:
+
+
+ * Number of Columns = 5
+
+ * Number of Reflections = 123661
+
+ * Missing value set to NaN in input mtz file
+
+ * Column Labels :
+
+ H K L FC PHIC
+
+ * Column Types :
+
+ H H H F P
+
+ * Associated datasets :
+
+ 0 0 0 0 0
+
+ * Cell Dimensions : (obsolete - refer to dataset cell dimensions above)
+
+   79.2500   81.6400   84.5370   90.0000   90.0000   90.0000 
+
+ *  Resolution Range :
+
+    0.00014    0.22676     (     84.537 -      2.100 A )
+
+ * Sort Order :
+
+      1     2     3     0     0
+
+ * Space group = 'P 1' (number     1)
+
+
+ Reading from HKLIN mtz file_Number = :1
+ This file written with MTZLIB Version Number : MTZ:V1.1  
+ File HKLIN1 contains a total of      5 Columns
+ and a total of     123661 Reflections
+
+  ******   EPSILON ZONES -  Reflection Classes and their multiplicity ****** 
+
+  EPSILON Zone   1
+  Reflections of type  hkl 
+  Multiplicity   1
+
+  ******   CENTRIC ZONES  ****** 
+
+  (no centric zones for this spacegroup) 
+
+
+
+ For file HKLIN1
+ Total Number of HKL read                         =     123661
+ Total Number of HKL systematic absent            =          0
+ Total Number of HKL reject for resolution limits =          0
+ Total Number of HKL passed to sort for this file =     123661
+
+
+ Total number read for all files    =     123661
+ Total passed to sort for all files =     123661
+ Total number systematic absent     =          0
+ Total number rejected outside resol=          0
+
+
+ Number of columns per file:
+ File_Number =    1 Number_Columns_Selected =     2
+
+ Data line--- LABOUT E11=FC E21=PHIC
+
+ WRITTEN OUTPUT MTZ FILE 
+ Logical Name: HKLOUT   Filename: 3rdx_full_c2221.pdb-yun-sorted.mtz 
+
+ * Title:
+
+ Sorted blah  A run of SFALL
+
+ * Base dataset:
+
+        0 HKL_base
+          HKL_base
+          HKL_base
+
+ * Number of Datasets = 0
+
+ * Dataset ID, project/crystal/dataset names, cell dimensions, wavelength:
+
+
+ * Number of Columns = 5
+
+ * Number of Reflections = 123661
+
+ * Missing value set to NaN in input mtz file
+
+ * Column Labels :
+
+ H K L FC PHIC
+
+ * Column Types :
+
+ H H H F P
+
+ * Associated datasets :
+
+ 0 0 0 0 0
+
+ * Cell Dimensions : (obsolete - refer to dataset cell dimensions above)
+
+   79.2500   81.6400   84.5370   90.0000   90.0000   90.0000 
+
+ *  Resolution Range :
+
+    0.00014    0.22676     (     84.537 -      2.100 A )
+
+ * Sort Order :
+
+      1     2     3     0     0
+
+ * Space group = 'P 1' (number     1)
+
+
+
+ Total number from Sorting Routine =     123661
+ Final Total of Unique records to HKLOUT =     123661
+ Final Total of Missing records to HKLOUT =          0
+<B><FONT COLOR="#FF0000"><!--SUMMARY_BEGIN-->
+ CAD:   *** Normal Termination of CAD ***
+Times: User:       0.3s System:    0.0s Elapsed:     0:00  
+</pre>
+</html>
+<!--SUMMARY_END--></FONT></B>
+<B><FONT COLOR="#FF0000"><!--SUMMARY_BEGIN-->
+<html> <!-- CCP4 HTML LOGFILE -->
+<hr>
+<!--SUMMARY_END--></FONT></B>
+<B><FONT COLOR="#FF0000"><!--SUMMARY_BEGIN-->
+<pre>
+ 
+ ###############################################################
+ ###############################################################
+ ###############################################################
+ ### CCP4 6.4: MTZ2VARIOUS              version 1.1 :         ##
+ ###############################################################
+ User: yunzhao  Run date: 31/ 5/2016 Run time: 16:01:11 
+
+
+ Please reference: Collaborative Computational Project, Number 4. 1994.
+ "The CCP4 Suite: Programs for Protein Crystallography". Acta Cryst. D50, 760-763.
+ as well as any specific reference in the program write-up.
+
+<!--SUMMARY_END--></FONT></B>
+ Data line--- LABIN H=H K=K L=L FC=FC PHIC=PHIC
+ Data line--- OUTPUT USER '(3I4,2F9.1)'
+
+FORMATTED      UNKNOWN file opened on unit  22
+<B><FONT COLOR="#FF0000"><!--SUMMARY_BEGIN-->
+Logical name: HKLOUT, Filename: 3rdx_full_c2221.pdb-yun-temp.hkl
+<!--SUMMARY_END--></FONT></B>
+
+<B><FONT COLOR="#FF0000"><!--SUMMARY_BEGIN-->
+ USER format output to ASCII file. 
+
+ *** Better to use mtzutils, and mtzdump with a defined format. See documentation!***
+ The format is 
+(3I4,2F9.1)                                                                     
+<!--SUMMARY_END--></FONT></B>
+
+ OPENED INPUT MTZ FILE 
+ Logical Name: HKLIN   Filename: 3rdx_full_c2221.pdb-yun-sorted.mtz 
+
+ * Title:
+
+ Sorted blah  A run of SFALL
+
+ * Base dataset:
+
+        0 HKL_base
+          HKL_base
+          HKL_base
+
+ * Number of Datasets = 0
+
+ * Dataset ID, project/crystal/dataset names, cell dimensions, wavelength:
+
+
+ * Number of Columns = 5
+
+ * Number of Reflections = 123661
+
+ * Missing value set to NaN in input mtz file
+
+ * Column Labels :
+
+ H K L FC PHIC
+
+ * Column Types :
+
+ H H H F P
+
+ * Associated datasets :
+
+ 0 0 0 0 0
+
+ * Cell Dimensions : (obsolete - refer to dataset cell dimensions above)
+
+   79.2500   81.6400   84.5370   90.0000   90.0000   90.0000 
+
+ *  Resolution Range :
+
+    0.00014    0.22676     (     84.537 -      2.100 A )
+
+ * Sort Order :
+
+      1     2     3     0     0
+
+ * Space group = 'P 1' (number     1)
+
+
+ Spacegroup information obtained from library file: 
+ Logical Name: SYMINFO   Filename: /Applications/ccp4-6.4.0/lib/data/syminfo.lib
+
+ Data line--- LABIN H=H K=K L=L FC=FC PHIC=PHIC
+ irng           0           2           0           0           0           0
+           0           0           0           0           0           0
+           0           0           0           0           0           0
+           0           0           0
+
+ ===================================
+  READING REFLECTIONS FROM MTZ FILE
+ ===================================
+
+         -37          -7           1  0.0000000E+00  0.0000000E+00
+  0.0000000E+00  0.0000000E+00  0.0000000E+00  0.0000000E+00
+ -37  -7   1    0    0    0    0    0    0    0x
+         -37          -7           1   126.9791       321.1517    
+         -34          10           3  0.0000000E+00  0.0000000E+00
+  0.0000000E+00  0.0000000E+00  0.0000000E+00  0.0000000E+00
+ -34  10   3    0    0    0    0    0    0    0x
+         -34          10           3   183.8886       75.44254    
+         -32           2           2  0.0000000E+00  0.0000000E+00
+  0.0000000E+00  0.0000000E+00  0.0000000E+00  0.0000000E+00
+ -32   2   2    0    0    0    0    0    0    0x
+         -32           2           2   174.6174       329.7556    
+         -31          15          13  0.0000000E+00  0.0000000E+00
+  0.0000000E+00  0.0000000E+00  0.0000000E+00  0.0000000E+00
+ -31  15  13    0    0    0    0    0    0    0x
+         -31          15          13   28.73713       291.7773    
+         -29         -20           6  0.0000000E+00  0.0000000E+00
+  0.0000000E+00  0.0000000E+00  0.0000000E+00  0.0000000E+00
+ -29 -20   6    0    0    0    0    0    0    0x
+         -29         -20           6  0.2980112       196.5812    
+         -28         -20          10  0.0000000E+00  0.0000000E+00
+  0.0000000E+00  0.0000000E+00  0.0000000E+00  0.0000000E+00
+ -28 -20  10    0    0    0    0    0    0    0x
+         -28         -20          10   188.6744       284.9241    
+         -28          25           5  0.0000000E+00  0.0000000E+00
+  0.0000000E+00  0.0000000E+00  0.0000000E+00  0.0000000E+00
+ -28  25   5    0    0    0    0    0    0    0x
+         -28          25           5  0.1328482       295.8831    
+         -27          16           5  0.0000000E+00  0.0000000E+00
+  0.0000000E+00  0.0000000E+00  0.0000000E+00  0.0000000E+00
+ -27  16   5    0    0    0    0    0    0    0x
+         -27          16           5  9.4509162E-02   353.1034    
+         -26           7           2  0.0000000E+00  0.0000000E+00
+  0.0000000E+00  0.0000000E+00  0.0000000E+00  0.0000000E+00
+ -26   7   2    0    0    0    0    0    0    0x
+         -26           7           2  0.2047158       176.8198    
+         -25          -4          14  0.0000000E+00  0.0000000E+00
+  0.0000000E+00  0.0000000E+00  0.0000000E+00  0.0000000E+00
+ -25  -4  14    0    0    0    0    0    0    0x
+         -25          -4          14  0.2849976       146.5207    
+         -24         -18          18  0.0000000E+00  0.0000000E+00
+  0.0000000E+00  0.0000000E+00  0.0000000E+00  0.0000000E+00
+ -24 -18  18    0    0    0    0    0    0    0x
+         -24         -18          18   37.40627       188.5286    
+         -24          17          18  0.0000000E+00  0.0000000E+00
+  0.0000000E+00  0.0000000E+00  0.0000000E+00  0.0000000E+00
+ -24  17  18    0    0    0    0    0    0    0x
+         -24          17          18  0.2947511       2.356763    
+         -23           1           7  0.0000000E+00  0.0000000E+00
+  0.0000000E+00  0.0000000E+00  0.0000000E+00  0.0000000E+00
+ -23   1   7    0    0    0    0    0    0    0x
+         -23           1           7   203.2973       170.4126    
+         -22         -17           3  0.0000000E+00  0.0000000E+00
+  0.0000000E+00  0.0000000E+00  0.0000000E+00  0.0000000E+00
+ -22 -17   3    0    0    0    0    0    0    0x
+         -22         -17           3  0.3013885       172.3858    
+         -22          15          20  0.0000000E+00  0.0000000E+00
+  0.0000000E+00  0.0000000E+00  0.0000000E+00  0.0000000E+00
+ -22  15  20    0    0    0    0    0    0    0x
+         -22          15          20  0.2256424       315.7008    
+         -21          -5          20  0.0000000E+00  0.0000000E+00
+  0.0000000E+00  0.0000000E+00  0.0000000E+00  0.0000000E+00
+ -21  -5  20    0    0    0    0    0    0    0x
+         -21          -5          20   636.3203       51.11183    
+         -20         -32           3  0.0000000E+00  0.0000000E+00
+  0.0000000E+00  0.0000000E+00  0.0000000E+00  0.0000000E+00
+ -20 -32   3    0    0    0    0    0    0    0x
+         -20         -32           3   21.47669       328.4424    
+         -20           4          18  0.0000000E+00  0.0000000E+00
+  0.0000000E+00  0.0000000E+00  0.0000000E+00  0.0000000E+00
+ -20   4  18    0    0    0    0    0    0    0x
+         -20           4          18   518.9791       231.5709    
+         -19         -20          22  0.0000000E+00  0.0000000E+00
+  0.0000000E+00  0.0000000E+00  0.0000000E+00  0.0000000E+00
+ -19 -20  22    0    0    0    0    0    0    0x
+         -19         -20          22  0.1145995       34.96101    
+         -19          11          13  0.0000000E+00  0.0000000E+00
+  0.0000000E+00  0.0000000E+00  0.0000000E+00  0.0000000E+00
+ -19  11  13    0    0    0    0    0    0    0x
+         -19          11          13   329.2244       102.4445    
+         -18         -14          22  0.0000000E+00  0.0000000E+00
+  0.0000000E+00  0.0000000E+00  0.0000000E+00  0.0000000E+00
+ -18 -14  22    0    0    0    0    0    0    0x
+         -18         -14          22   274.9242       70.48704    
+         -18          16           8  0.0000000E+00  0.0000000E+00
+  0.0000000E+00  0.0000000E+00  0.0000000E+00  0.0000000E+00
+ -18  16   8    0    0    0    0    0    0    0x
+         -18          16           8   1071.310       39.28912    
+         -17         -10           1  0.0000000E+00  0.0000000E+00
+  0.0000000E+00  0.0000000E+00  0.0000000E+00  0.0000000E+00
+ -17 -10   1    0    0    0    0    0    0    0x
+         -17         -10           1  0.3538789       249.7383    
+         -17          19          16  0.0000000E+00  0.0000000E+00
+  0.0000000E+00  0.0000000E+00  0.0000000E+00  0.0000000E+00
+ -17  19  16    0    0    0    0    0    0    0x
+         -17          19          16   261.4518       252.5576    
+         -16          -9          24  0.0000000E+00  0.0000000E+00
+  0.0000000E+00  0.0000000E+00  0.0000000E+00  0.0000000E+00
+ -16  -9  24    0    0    0    0    0    0    0x
+         -16          -9          24  0.1837772       267.5860    
+         -16          20          24  0.0000000E+00  0.0000000E+00
+  0.0000000E+00  0.0000000E+00  0.0000000E+00  0.0000000E+00
+ -16  20  24    0    0    0    0    0    0    0x
+         -16          20          24   185.3416       160.0462    
+         -15          -9          18  0.0000000E+00  0.0000000E+00
+  0.0000000E+00  0.0000000E+00  0.0000000E+00  0.0000000E+00
+ -15  -9  18    0    0    0    0    0    0    0x
+         -15          -9          18   64.49267       58.10794    
+         -15          20           7  0.0000000E+00  0.0000000E+00
+  0.0000000E+00  0.0000000E+00  0.0000000E+00  0.0000000E+00
+ -15  20   7    0    0    0    0    0    0    0x
+         -15          20           7  0.5029179       48.27820    
+         -14         -10           2  0.0000000E+00  0.0000000E+00
+  0.0000000E+00  0.0000000E+00  0.0000000E+00  0.0000000E+00
+ -14 -10   2    0    0    0    0    0    0    0x
+         -14         -10           2   402.7737       255.6531    
+         -14          17          32  0.0000000E+00  0.0000000E+00
+  0.0000000E+00  0.0000000E+00  0.0000000E+00  0.0000000E+00
+ -14  17  32    0    0    0    0    0    0    0x
+         -14          17          32  0.2023227       31.74619    
+         -13         -13           5  0.0000000E+00  0.0000000E+00
+  0.0000000E+00  0.0000000E+00  0.0000000E+00  0.0000000E+00
+ -13 -13   5    0    0    0    0    0    0    0x
+         -13         -13           5   385.6434       260.7639    
+         -13          14          22  0.0000000E+00  0.0000000E+00
+  0.0000000E+00  0.0000000E+00  0.0000000E+00  0.0000000E+00
+ -13  14  22    0    0    0    0    0    0    0x
+         -13          14          22  0.2384608       208.2268    
+         -12         -18          31  0.0000000E+00  0.0000000E+00
+  0.0000000E+00  0.0000000E+00  0.0000000E+00  0.0000000E+00
+ -12 -18  31    0    0    0    0    0    0    0x
+         -12         -18          31   118.8404       213.7193    
+         -12          10           9  0.0000000E+00  0.0000000E+00
+  0.0000000E+00  0.0000000E+00  0.0000000E+00  0.0000000E+00
+ -12  10   9    0    0    0    0    0    0    0x
+         -12          10           9   402.4722       329.9283    
+         -11         -24          29  0.0000000E+00  0.0000000E+00
+  0.0000000E+00  0.0000000E+00  0.0000000E+00  0.0000000E+00
+ -11 -24  29    0    0    0    0    0    0    0x
+         -11         -24          29  0.1812187       172.7141    
+         -11           4          36  0.0000000E+00  0.0000000E+00
+  0.0000000E+00  0.0000000E+00  0.0000000E+00  0.0000000E+00
+ -11   4  36    0    0    0    0    0    0    0x
+         -11           4          36  0.2647506       194.1442    
+         -10         -33          15  0.0000000E+00  0.0000000E+00
+  0.0000000E+00  0.0000000E+00  0.0000000E+00  0.0000000E+00
+ -10 -33  15    0    0    0    0    0    0    0x
+         -10         -33          15  4.1665956E-02   139.8870    
+         -10          -2          32  0.0000000E+00  0.0000000E+00
+  0.0000000E+00  0.0000000E+00  0.0000000E+00  0.0000000E+00
+ -10  -2  32    0    0    0    0    0    0    0x
+         -10          -2          32   531.3004       135.8820    
+         -10          27          16  0.0000000E+00  0.0000000E+00
+  0.0000000E+00  0.0000000E+00  0.0000000E+00  0.0000000E+00
+ -10  27  16    0    0    0    0    0    0    0x
+         -10          27          16  0.6681333       170.7600    
+          -9          -9          37  0.0000000E+00  0.0000000E+00
+  0.0000000E+00  0.0000000E+00  0.0000000E+00  0.0000000E+00
+  -9  -9  37    0    0    0    0    0    0    0x
+          -9          -9          37   114.6499       79.72213    
+          -9          18          25  0.0000000E+00  0.0000000E+00
+  0.0000000E+00  0.0000000E+00  0.0000000E+00  0.0000000E+00
+  -9  18  25    0    0    0    0    0    0    0x
+          -9          18          25  0.3236337       242.9139    
+          -8         -16           1  0.0000000E+00  0.0000000E+00
+  0.0000000E+00  0.0000000E+00  0.0000000E+00  0.0000000E+00
+  -8 -16   1    0    0    0    0    0    0    0x
+          -8         -16           1   857.1251       243.2516    
+          -8          10          16  0.0000000E+00  0.0000000E+00
+  0.0000000E+00  0.0000000E+00  0.0000000E+00  0.0000000E+00
+  -8  10  16    0    0    0    0    0    0    0x
+          -8          10          16   392.2957       187.6591    
+          -7         -26           4  0.0000000E+00  0.0000000E+00
+  0.0000000E+00  0.0000000E+00  0.0000000E+00  0.0000000E+00
+  -7 -26   4    0    0    0    0    0    0    0x
+          -7         -26           4  0.4217048       152.7419    
+          -7           2           3  0.0000000E+00  0.0000000E+00
+  0.0000000E+00  0.0000000E+00  0.0000000E+00  0.0000000E+00
+  -7   2   3    0    0    0    0    0    0    0x
+          -7           2           3  0.2515079       37.76357    
+          -7          31          17  0.0000000E+00  0.0000000E+00
+  0.0000000E+00  0.0000000E+00  0.0000000E+00  0.0000000E+00
+  -7  31  17    0    0    0    0    0    0    0x
+          -7          31          17   201.7682       96.22926    
+          -6          -7           6  0.0000000E+00  0.0000000E+00
+  0.0000000E+00  0.0000000E+00  0.0000000E+00  0.0000000E+00
+  -6  -7   6    0    0    0    0    0    0    0x
+          -6          -7           6   1.307037       199.0238    
+          -6          19          16  0.0000000E+00  0.0000000E+00
+  0.0000000E+00  0.0000000E+00  0.0000000E+00  0.0000000E+00
+  -6  19  16    0    0    0    0    0    0    0x
+          -6          19          16  6.4158693E-02   166.8780    
+          -5         -17           6  0.0000000E+00  0.0000000E+00
+  0.0000000E+00  0.0000000E+00  0.0000000E+00  0.0000000E+00
+  -5 -17   6    0    0    0    0    0    0    0x
+          -5         -17           6   211.2711       183.5518    
+          -5           9          11  0.0000000E+00  0.0000000E+00
+  0.0000000E+00  0.0000000E+00  0.0000000E+00  0.0000000E+00
+  -5   9  11    0    0    0    0    0    0    0x
+          -5           9          11   861.3533       29.87711    
+          -4         -30          21  0.0000000E+00  0.0000000E+00
+  0.0000000E+00  0.0000000E+00  0.0000000E+00  0.0000000E+00
+  -4 -30  21    0    0    0    0    0    0    0x
+          -4         -30          21   322.5379       127.6569    
+          -4          -1          19  0.0000000E+00  0.0000000E+00
+  0.0000000E+00  0.0000000E+00  0.0000000E+00  0.0000000E+00
+  -4  -1  19    0    0    0    0    0    0    0x
+          -4          -1          19  0.3572873       262.2752    
+          -4          27           3  0.0000000E+00  0.0000000E+00
+  0.0000000E+00  0.0000000E+00  0.0000000E+00  0.0000000E+00
+  -4  27   3    0    0    0    0    0    0    0x
+          -4          27           3  0.5567568       195.2733    
+          -3         -11          13  0.0000000E+00  0.0000000E+00
+  0.0000000E+00  0.0000000E+00  0.0000000E+00  0.0000000E+00
+  -3 -11  13    0    0    0    0    0    0    0x
+          -3         -11          13   1023.109       341.1222    
+          -3          15           1  0.0000000E+00  0.0000000E+00
+  0.0000000E+00  0.0000000E+00  0.0000000E+00  0.0000000E+00
+  -3  15   1    0    0    0    0    0    0    0x
+          -3          15           1   1123.667       354.5182    
+          -2         -23          26  0.0000000E+00  0.0000000E+00
+  0.0000000E+00  0.0000000E+00  0.0000000E+00  0.0000000E+00
+  -2 -23  26    0    0    0    0    0    0    0x
+          -2         -23          26  0.2445217       230.9109    
+          -2           4          13  0.0000000E+00  0.0000000E+00
+  0.0000000E+00  0.0000000E+00  0.0000000E+00  0.0000000E+00
+  -2   4  13    0    0    0    0    0    0    0x
+          -2           4          13   767.7379       25.12513    
+          -2          34          17  0.0000000E+00  0.0000000E+00
+  0.0000000E+00  0.0000000E+00  0.0000000E+00  0.0000000E+00
+  -2  34  17    0    0    0    0    0    0    0x
+          -2          34          17   63.48869       117.8185    
+          -1          -7          35  0.0000000E+00  0.0000000E+00
+  0.0000000E+00  0.0000000E+00  0.0000000E+00  0.0000000E+00
+  -1  -7  35    0    0    0    0    0    0    0x
+          -1          -7          35   177.7743      0.3456413    
+          -1          19          31  0.0000000E+00  0.0000000E+00
+  0.0000000E+00  0.0000000E+00  0.0000000E+00  0.0000000E+00
+  -1  19  31    0    0    0    0    0    0    0x
+          -1          19          31   127.2062       77.04038    
+           0         -18          29  0.0000000E+00  0.0000000E+00
+  0.0000000E+00  0.0000000E+00  0.0000000E+00  0.0000000E+00
+   0 -18  29    0    0    0    0    0    0    0x
+           0         -18          29   34.05257      0.1155934    
+           0           8          17  0.0000000E+00  0.0000000E+00
+  0.0000000E+00  0.0000000E+00  0.0000000E+00  0.0000000E+00
+   0   8  17    0    0    0    0    0    0    0x
+           0           8          17   228.3327       179.8514    
+           1         -34          19  0.0000000E+00  0.0000000E+00
+  0.0000000E+00  0.0000000E+00  0.0000000E+00  0.0000000E+00
+   1 -34  19    0    0    0    0    0    0    0x
+           1         -34          19  0.2851918       81.86646    
+           1          -4          13  0.0000000E+00  0.0000000E+00
+  0.0000000E+00  0.0000000E+00  0.0000000E+00  0.0000000E+00
+   1  -4  13    0    0    0    0    0    0    0x
+           1          -4          13  0.5293577       52.78808    
+           1          21          32  0.0000000E+00  0.0000000E+00
+  0.0000000E+00  0.0000000E+00  0.0000000E+00  0.0000000E+00
+   1  21  32    0    0    0    0    0    0    0x
+           1          21          32   189.7917       8.752503    
+           2         -17          25  0.0000000E+00  0.0000000E+00
+  0.0000000E+00  0.0000000E+00  0.0000000E+00  0.0000000E+00
+   2 -17  25    0    0    0    0    0    0    0x
+           2         -17          25  0.3474120       116.9243    
+           2           8          33  0.0000000E+00  0.0000000E+00
+  0.0000000E+00  0.0000000E+00  0.0000000E+00  0.0000000E+00
+   2   8  33    0    0    0    0    0    0    0x
+           2           8          33   290.3591       256.1498    
+           3         -33          18  0.0000000E+00  0.0000000E+00
+  0.0000000E+00  0.0000000E+00  0.0000000E+00  0.0000000E+00
+   3 -33  18    0    0    0    0    0    0    0x
+           3         -33          18   35.94275       165.6398    
+           3          -4          33  0.0000000E+00  0.0000000E+00
+  0.0000000E+00  0.0000000E+00  0.0000000E+00  0.0000000E+00
+   3  -4  33    0    0    0    0    0    0    0x
+           3          -4          33  0.2378903       37.39279    
+           3          22          21  0.0000000E+00  0.0000000E+00
+  0.0000000E+00  0.0000000E+00  0.0000000E+00  0.0000000E+00
+   3  22  21    0    0    0    0    0    0    0x
+           3          22          21  0.3033377       139.8483    
+           4         -16          23  0.0000000E+00  0.0000000E+00
+  0.0000000E+00  0.0000000E+00  0.0000000E+00  0.0000000E+00
+   4 -16  23    0    0    0    0    0    0    0x
+           4         -16          23   826.7895       128.0828    
+           4           9          34  0.0000000E+00  0.0000000E+00
+  0.0000000E+00  0.0000000E+00  0.0000000E+00  0.0000000E+00
+   4   9  34    0    0    0    0    0    0    0x
+           4           9          34  0.3124059       209.0078    
+           5         -30           5  0.0000000E+00  0.0000000E+00
+  0.0000000E+00  0.0000000E+00  0.0000000E+00  0.0000000E+00
+   5 -30   5    0    0    0    0    0    0    0x
+           5         -30           5  0.6250294       40.75359    
+           5          -2          15  0.0000000E+00  0.0000000E+00
+  0.0000000E+00  0.0000000E+00  0.0000000E+00  0.0000000E+00
+   5  -2  15    0    0    0    0    0    0    0x
+           5          -2          15  0.1844278       92.46555    
+           5          24          28  0.0000000E+00  0.0000000E+00
+  0.0000000E+00  0.0000000E+00  0.0000000E+00  0.0000000E+00
+   5  24  28    0    0    0    0    0    0    0x
+           5          24          28  6.3336924E-02   93.60847    
+           6         -14          37  0.0000000E+00  0.0000000E+00
+  0.0000000E+00  0.0000000E+00  0.0000000E+00  0.0000000E+00
+   6 -14  37    0    0    0    0    0    0    0x
+           6         -14          37   94.45003       277.4598    
+           6          12          11  0.0000000E+00  0.0000000E+00
+  0.0000000E+00  0.0000000E+00  0.0000000E+00  0.0000000E+00
+   6  12  11    0    0    0    0    0    0    0x
+           6          12          11   1822.213       267.4580    
+           7         -26          11  0.0000000E+00  0.0000000E+00
+  0.0000000E+00  0.0000000E+00  0.0000000E+00  0.0000000E+00
+   7 -26  11    0    0    0    0    0    0    0x
+           7         -26          11  0.6270051       40.30061    
+           7           1          22  0.0000000E+00  0.0000000E+00
+  0.0000000E+00  0.0000000E+00  0.0000000E+00  0.0000000E+00
+   7   1  22    0    0    0    0    0    0    0x
+           7           1          22   433.4656       208.5582    
+           7          29          18  0.0000000E+00  0.0000000E+00
+  0.0000000E+00  0.0000000E+00  0.0000000E+00  0.0000000E+00
+   7  29  18    0    0    0    0    0    0    0x
+           7          29          18   150.8425       102.4682    
+           8          -9          21  0.0000000E+00  0.0000000E+00
+  0.0000000E+00  0.0000000E+00  0.0000000E+00  0.0000000E+00
+   8  -9  21    0    0    0    0    0    0    0x
+           8          -9          21  0.1368030       335.3713    
+           8          17          10  0.0000000E+00  0.0000000E+00
+  0.0000000E+00  0.0000000E+00  0.0000000E+00  0.0000000E+00
+   8  17  10    0    0    0    0    0    0    0x
+           8          17          10  0.2804044       14.70422    
+           9         -19          14  0.0000000E+00  0.0000000E+00
+  0.0000000E+00  0.0000000E+00  0.0000000E+00  0.0000000E+00
+   9 -19  14    0    0    0    0    0    0    0x
+           9         -19          14   752.0480       1.022123    
+           9           7          22  0.0000000E+00  0.0000000E+00
+  0.0000000E+00  0.0000000E+00  0.0000000E+00  0.0000000E+00
+   9   7  22    0    0    0    0    0    0    0x
+           9           7          22   645.9849       254.5235    
+          10         -31          12  0.0000000E+00  0.0000000E+00
+  0.0000000E+00  0.0000000E+00  0.0000000E+00  0.0000000E+00
+  10 -31  12    0    0    0    0    0    0    0x
+          10         -31          12  0.5270956       102.0941    
+          10          -2          38  0.0000000E+00  0.0000000E+00
+  0.0000000E+00  0.0000000E+00  0.0000000E+00  0.0000000E+00
+  10  -2  38    0    0    0    0    0    0    0x
+          10          -2          38   358.6775       151.4170    
+          10          26          21  0.0000000E+00  0.0000000E+00
+  0.0000000E+00  0.0000000E+00  0.0000000E+00  0.0000000E+00
+  10  26  21    0    0    0    0    0    0    0x
+          10          26          21   53.32104       33.25392    
+          11          -9           1  0.0000000E+00  0.0000000E+00
+  0.0000000E+00  0.0000000E+00  0.0000000E+00  0.0000000E+00
+  11  -9   1    0    0    0    0    0    0    0x
+          11          -9           1   206.0872       7.532164    
+          11          17          10  0.0000000E+00  0.0000000E+00
+  0.0000000E+00  0.0000000E+00  0.0000000E+00  0.0000000E+00
+  11  17  10    0    0    0    0    0    0    0x
+          11          17          10   448.0596       308.3363    
+          12         -17          17  0.0000000E+00  0.0000000E+00
+  0.0000000E+00  0.0000000E+00  0.0000000E+00  0.0000000E+00
+  12 -17  17    0    0    0    0    0    0    0x
+          12         -17          17  0.3671167       19.75023    
+          12          10           1  0.0000000E+00  0.0000000E+00
+  0.0000000E+00  0.0000000E+00  0.0000000E+00  0.0000000E+00
+  12  10   1    0    0    0    0    0    0    0x
+          12          10           1   387.9307       281.0571    
+          13         -24           4  0.0000000E+00  0.0000000E+00
+  0.0000000E+00  0.0000000E+00  0.0000000E+00  0.0000000E+00
+  13 -24   4    0    0    0    0    0    0    0x
+          13         -24           4  0.6815833       126.9202    
+          13           4           9  0.0000000E+00  0.0000000E+00
+  0.0000000E+00  0.0000000E+00  0.0000000E+00  0.0000000E+00
+  13   4   9    0    0    0    0    0    0    0x
+          13           4           9  0.3976370       118.7218    
+          14         -33          15  0.0000000E+00  0.0000000E+00
+  0.0000000E+00  0.0000000E+00  0.0000000E+00  0.0000000E+00
+  14 -33  15    0    0    0    0    0    0    0x
+          14         -33          15  0.5480190       324.2756    
+          14          -1          20  0.0000000E+00  0.0000000E+00
+  0.0000000E+00  0.0000000E+00  0.0000000E+00  0.0000000E+00
+  14  -1  20    0    0    0    0    0    0    0x
+          14          -1          20  0.4285173       315.6474    
+          14          29           9  0.0000000E+00  0.0000000E+00
+  0.0000000E+00  0.0000000E+00  0.0000000E+00  0.0000000E+00
+  14  29   9    0    0    0    0    0    0    0x
+          14          29           9  0.3872570       132.0735    
+          15          -5          36  0.0000000E+00  0.0000000E+00
+  0.0000000E+00  0.0000000E+00  0.0000000E+00  0.0000000E+00
+  15  -5  36    0    0    0    0    0    0    0x
+          15          -5          36   59.23339       11.82195    
+          15          24          22  0.0000000E+00  0.0000000E+00
+  0.0000000E+00  0.0000000E+00  0.0000000E+00  0.0000000E+00
+  15  24  22    0    0    0    0    0    0    0x
+          15          24          22  0.2914453       111.0478    
+          16          -7          29  0.0000000E+00  0.0000000E+00
+  0.0000000E+00  0.0000000E+00  0.0000000E+00  0.0000000E+00
+  16  -7  29    0    0    0    0    0    0    0x
+          16          -7          29  0.1922314       251.5211    
+          16          22          11  0.0000000E+00  0.0000000E+00
+  0.0000000E+00  0.0000000E+00  0.0000000E+00  0.0000000E+00
+  16  22  11    0    0    0    0    0    0    0x
+          16          22          11   574.2438       271.6163    
+          17          -7           3  0.0000000E+00  0.0000000E+00
+  0.0000000E+00  0.0000000E+00  0.0000000E+00  0.0000000E+00
+  17  -7   3    0    0    0    0    0    0    0x
+          17          -7           3   1393.481       75.64346    
+          17          22           4  0.0000000E+00  0.0000000E+00
+  0.0000000E+00  0.0000000E+00  0.0000000E+00  0.0000000E+00
+  17  22   4    0    0    0    0    0    0    0x
+          17          22           4  0.1137385       193.6288    
+          18          -6           3  0.0000000E+00  0.0000000E+00
+  0.0000000E+00  0.0000000E+00  0.0000000E+00  0.0000000E+00
+  18  -6   3    0    0    0    0    0    0    0x
+          18          -6           3   511.8564       86.84935    
+          18          23          23  0.0000000E+00  0.0000000E+00
+  0.0000000E+00  0.0000000E+00  0.0000000E+00  0.0000000E+00
+  18  23  23    0    0    0    0    0    0    0x
+          18          23          23  0.3327892       294.0928    
+          19          -4          23  0.0000000E+00  0.0000000E+00
+  0.0000000E+00  0.0000000E+00  0.0000000E+00  0.0000000E+00
+  19  -4  23    0    0    0    0    0    0    0x
+          19          -4          23  0.1070362       342.4987    
+          19          28          16  0.0000000E+00  0.0000000E+00
+  0.0000000E+00  0.0000000E+00  0.0000000E+00  0.0000000E+00
+  19  28  16    0    0    0    0    0    0    0x
+          19          28          16  0.5840752       6.526248    
+          20           1          13  0.0000000E+00  0.0000000E+00
+  0.0000000E+00  0.0000000E+00  0.0000000E+00  0.0000000E+00
+  20   1  13    0    0    0    0    0    0    0x
+          20           1          13  0.6265301       117.5365    
+          21         -24          10  0.0000000E+00  0.0000000E+00
+  0.0000000E+00  0.0000000E+00  0.0000000E+00  0.0000000E+00
+  21 -24  10    0    0    0    0    0    0    0x
+          21         -24          10  0.2818111       91.36037    
+          21           8          10  0.0000000E+00  0.0000000E+00
+  0.0000000E+00  0.0000000E+00  0.0000000E+00  0.0000000E+00
+  21   8  10    0    0    0    0    0    0    0x
+          21           8          10  0.2648600       239.3473    
+          22         -13           2  0.0000000E+00  0.0000000E+00
+  0.0000000E+00  0.0000000E+00  0.0000000E+00  0.0000000E+00
+  22 -13   2    0    0    0    0    0    0    0x
+          22         -13           2  0.4172410       185.0840    
+          22          18          17  0.0000000E+00  0.0000000E+00
+  0.0000000E+00  0.0000000E+00  0.0000000E+00  0.0000000E+00
+  22  18  17    0    0    0    0    0    0    0x
+          22          18          17   232.0561       266.9077    
+          23          -1           1  0.0000000E+00  0.0000000E+00
+  0.0000000E+00  0.0000000E+00  0.0000000E+00  0.0000000E+00
+  23  -1   1    0    0    0    0    0    0    0x
+          23          -1           1   424.6358       248.4238    
+          24         -20          13  0.0000000E+00  0.0000000E+00
+  0.0000000E+00  0.0000000E+00  0.0000000E+00  0.0000000E+00
+  24 -20  13    0    0    0    0    0    0    0x
+          24         -20          13   415.1797       239.3431    
+          24          14          11  0.0000000E+00  0.0000000E+00
+  0.0000000E+00  0.0000000E+00  0.0000000E+00  0.0000000E+00
+  24  14  11    0    0    0    0    0    0    0x
+          24          14          11   455.5119       289.0019    
+          25          -1          20  0.0000000E+00  0.0000000E+00
+  0.0000000E+00  0.0000000E+00  0.0000000E+00  0.0000000E+00
+  25  -1  20    0    0    0    0    0    0    0x
+          25          -1          20   40.22740       70.63074    
+          26         -14          20  0.0000000E+00  0.0000000E+00
+  0.0000000E+00  0.0000000E+00  0.0000000E+00  0.0000000E+00
+  26 -14  20    0    0    0    0    0    0    0x
+          26         -14          20   85.79574       209.2971    
+          26          24           2  0.0000000E+00  0.0000000E+00
+  0.0000000E+00  0.0000000E+00  0.0000000E+00  0.0000000E+00
+  26  24   2    0    0    0    0    0    0    0x
+          26          24           2   22.67926       32.31866    
+          27          12          12  0.0000000E+00  0.0000000E+00
+  0.0000000E+00  0.0000000E+00  0.0000000E+00  0.0000000E+00
+  27  12  12    0    0    0    0    0    0    0x
+          27          12          12  0.2836518       266.5049    
+          28           6           5  0.0000000E+00  0.0000000E+00
+  0.0000000E+00  0.0000000E+00  0.0000000E+00  0.0000000E+00
+  28   6   5    0    0    0    0    0    0    0x
+          28           6           5   610.5801       134.7599    
+          29           3          13  0.0000000E+00  0.0000000E+00
+  0.0000000E+00  0.0000000E+00  0.0000000E+00  0.0000000E+00
+  29   3  13    0    0    0    0    0    0    0x
+          29           3          13   152.7512       106.9166    
+          30           4          13  0.0000000E+00  0.0000000E+00
+  0.0000000E+00  0.0000000E+00  0.0000000E+00  0.0000000E+00
+  30   4  13    0    0    0    0    0    0    0x
+          30           4          13   75.82156       206.1566    
+          31          10          15  0.0000000E+00  0.0000000E+00
+  0.0000000E+00  0.0000000E+00  0.0000000E+00  0.0000000E+00
+  31  10  15    0    0    0    0    0    0    0x
+          31          10          15  5.8494296E-02   125.6668    
+          33         -10           7  0.0000000E+00  0.0000000E+00
+  0.0000000E+00  0.0000000E+00  0.0000000E+00  0.0000000E+00
+  33 -10   7    0    0    0    0    0    0    0x
+          33         -10           7  0.2685182       53.37719    
+          35         -11           9  0.0000000E+00  0.0000000E+00
+  0.0000000E+00  0.0000000E+00  0.0000000E+00  0.0000000E+00
+  35 -11   9    0    0    0    0    0    0    0x
+          35         -11           9   75.51643       200.9002    
+
+ ===================================
+  FINISHED READING REFLECTIONS 
+ ===================================
+
+ Number of reflections   output =   123661
+
+ Number in Working Set (indep)  =        0
+ Number in Free    Set (indep)  =        0
+ Number  Missing       (indep)  =   123661
+ Number in Excluded Set (indep) =   123661
+
+ Number in Working Set (total)  =        0
+ Number in Free    Set (total)  =        0
+ Number  Missing       (total)  =   123661
+ Number in Excluded Set (total) =   123661
+
+ Number rejected by EXCLUDE k/w =        0
+
+
+
+ No. of reflections a) altogether b) to output c) independent   by resolution bins
+   0.00014 -   0.00467       640         0         0
+   0.00467 -   0.00920       724         0         0
+   0.00920 -   0.01374       933         0         0
+   0.01374 -   0.01827      1049         0         0
+   0.01827 -   0.02280      1175         0         0
+   0.02280 -   0.02733      1270         0         0
+   0.02733 -   0.03187      1387         0         0
+   0.03187 -   0.03640      1479         0         0
+   0.03640 -   0.04093      1568         0         0
+   0.04093 -   0.04546      1665         0         0
+   0.04546 -   0.05000      1751         0         0
+   0.05000 -   0.05453      1804         0         0
+   0.05453 -   0.05906      1896         0         0
+   0.05906 -   0.06359      1972         0         0
+   0.06359 -   0.06813      2023         0         0
+   0.06813 -   0.07266      2090         0         0
+   0.07266 -   0.07719      2167         0         0
+   0.07719 -   0.08172      2176         0         0
+   0.08172 -   0.08626      2307         0         0
+   0.08626 -   0.09079      2353         0         0
+   0.09079 -   0.09532      2470         0         0
+   0.09532 -   0.09985      2352         0         0
+   0.09985 -   0.10439      2569         0         0
+   0.10439 -   0.10892      2573         0         0
+   0.10892 -   0.11345      2600         0         0
+   0.11345 -   0.11798      2683         0         0
+   0.11798 -   0.12252      2690         0         0
+   0.12252 -   0.12705      2829         0         0
+   0.12705 -   0.13158      2812         0         0
+   0.13158 -   0.13611      2929         0         0
+   0.13611 -   0.14065      2834         0         0
+   0.14065 -   0.14518      3031         0         0
+   0.14518 -   0.14971      2952         0         0
+   0.14971 -   0.15424      3053         0         0
+   0.15424 -   0.15878      3142         0         0
+   0.15878 -   0.16331      3097         0         0
+   0.16331 -   0.16784      3238         0         0
+   0.16784 -   0.17237      3211         0         0
+   0.17237 -   0.17691      3250         0         0
+   0.17691 -   0.18144      3329         0         0
+   0.18144 -   0.18597      3444         0         0
+   0.18597 -   0.19050      3301         0         0
+   0.19050 -   0.19503      3502         0         0
+   0.19503 -   0.19957      3450         0         0
+   0.19957 -   0.20410      3528         0         0
+   0.20410 -   0.20863      3555         0         0
+   0.20863 -   0.21316      3567         0         0
+   0.21316 -   0.21770      3680         0         0
+   0.21770 -   0.22223      3623         0         0
+   0.22223 -   0.22676      1938         0         0
+<B><FONT COLOR="#FF0000"><!--SUMMARY_BEGIN-->
+ MTZ2VARIOUS:  Normal termination
+Times: User:       0.5s System:    0.2s Elapsed:     0:01  
+</pre>
+</html>
+<!--SUMMARY_END--></FONT></B>
+<B><FONT COLOR="#FF0000"><!--SUMMARY_BEGIN-->
+<html> <!-- CCP4 HTML LOGFILE -->
+<hr>
+<!--SUMMARY_END--></FONT></B>
+<B><FONT COLOR="#FF0000"><!--SUMMARY_BEGIN-->
+<pre>
+ 
+ ###############################################################
+ ###############################################################
+ ###############################################################
+ ### CCP4 6.4: MTZ2VARIOUS              version 1.1 :         ##
+ ###############################################################
+ User: yunzhao  Run date: 31/ 5/2016 Run time: 16:01:12 
+
+
+ Please reference: Collaborative Computational Project, Number 4. 1994.
+ "The CCP4 Suite: Programs for Protein Crystallography". Acta Cryst. D50, 760-763.
+ as well as any specific reference in the program write-up.
+
+<!--SUMMARY_END--></FONT></B>
+ Data line--- LABIN H=H K=K L=L FC=FC PHIC=PHIC
+ Data line--- OUTPUT USER '(3I4,2F9.1)'
+
+FORMATTED      UNKNOWN file opened on unit  22
+<B><FONT COLOR="#FF0000"><!--SUMMARY_BEGIN-->
+Logical name: HKLOUT, Filename: 3rdx_full_c2221.pdb-yun-full.hkl
+<!--SUMMARY_END--></FONT></B>
+
+<B><FONT COLOR="#FF0000"><!--SUMMARY_BEGIN-->
+ USER format output to ASCII file. 
+
+ *** Better to use mtzutils, and mtzdump with a defined format. See documentation!***
+ The format is 
+(3I4,2F9.1)                                                                     
+<!--SUMMARY_END--></FONT></B>
+
+ OPENED INPUT MTZ FILE 
+ Logical Name: HKLIN   Filename: 3rdx_full_c2221.pdb-yun.mtz 
+
+ * Title:
+
+  A run of SFALL
+
+ * Base dataset:
+
+        0 HKL_base
+          HKL_base
+          HKL_base
+
+ * Number of Datasets = 0
+
+ * Dataset ID, project/crystal/dataset names, cell dimensions, wavelength:
+
+
+ * Number of Columns = 5
+
+ * Number of Reflections = 123661
+
+ * Missing value set to NaN in input mtz file
+
+ * Column Labels :
+
+ H K L FC PHIC
+
+ * Column Types :
+
+ H H H F P
+
+ * Associated datasets :
+
+ 0 0 0 0 0
+
+ * Cell Dimensions : (obsolete - refer to dataset cell dimensions above)
+
+   79.2500   81.6400   84.5370   90.0000   90.0000   90.0000 
+
+ *  Resolution Range :
+
+    0.00014    0.22676     (     84.537 -      2.100 A )
+
+ * Sort Order :
+
+      1     2     3     0     0
+
+ * Space group = 'P 1' (number     1)
+
+
+ Spacegroup information obtained from library file: 
+ Logical Name: SYMINFO   Filename: /Applications/ccp4-6.4.0/lib/data/syminfo.lib
+
+ Data line--- LABIN H=H K=K L=L FC=FC PHIC=PHIC
+ irng           0           2           0           0           0           0
+           0           0           0           0           0           0
+           0           0           0           0           0           0
+           0           0           0
+
+ ===================================
+  READING REFLECTIONS FROM MTZ FILE
+ ===================================
+
+         -37          -7           1  0.0000000E+00  0.0000000E+00
+  0.0000000E+00  0.0000000E+00  0.0000000E+00  0.0000000E+00
+ -37  -7   1    0    0    0    0    0    0    0x
+         -37          -7           1   126.9791      -38.84825    
+         -34          10           3  0.0000000E+00  0.0000000E+00
+  0.0000000E+00  0.0000000E+00  0.0000000E+00  0.0000000E+00
+ -34  10   3    0    0    0    0    0    0    0x
+         -34          10           3   183.8886       75.44254    
+         -32           2           2  0.0000000E+00  0.0000000E+00
+  0.0000000E+00  0.0000000E+00  0.0000000E+00  0.0000000E+00
+ -32   2   2    0    0    0    0    0    0    0x
+         -32           2           2   174.6174      -30.24440    
+         -31          15          13  0.0000000E+00  0.0000000E+00
+  0.0000000E+00  0.0000000E+00  0.0000000E+00  0.0000000E+00
+ -31  15  13    0    0    0    0    0    0    0x
+         -31          15          13   28.73713      -68.22275    
+         -29         -20           6  0.0000000E+00  0.0000000E+00
+  0.0000000E+00  0.0000000E+00  0.0000000E+00  0.0000000E+00
+ -29 -20   6    0    0    0    0    0    0    0x
+         -29         -20           6  0.2980112      -163.4188    
+         -28         -20          10  0.0000000E+00  0.0000000E+00
+  0.0000000E+00  0.0000000E+00  0.0000000E+00  0.0000000E+00
+ -28 -20  10    0    0    0    0    0    0    0x
+         -28         -20          10   188.6744      -75.07586    
+         -28          25           5  0.0000000E+00  0.0000000E+00
+  0.0000000E+00  0.0000000E+00  0.0000000E+00  0.0000000E+00
+ -28  25   5    0    0    0    0    0    0    0x
+         -28          25           5  0.1328482      -64.11694    
+         -27          16           5  0.0000000E+00  0.0000000E+00
+  0.0000000E+00  0.0000000E+00  0.0000000E+00  0.0000000E+00
+ -27  16   5    0    0    0    0    0    0    0x
+         -27          16           5  9.4509162E-02  -6.896648    
+         -26           7           2  0.0000000E+00  0.0000000E+00
+  0.0000000E+00  0.0000000E+00  0.0000000E+00  0.0000000E+00
+ -26   7   2    0    0    0    0    0    0    0x
+         -26           7           2  0.2047158       176.8198    
+         -25          -4          14  0.0000000E+00  0.0000000E+00
+  0.0000000E+00  0.0000000E+00  0.0000000E+00  0.0000000E+00
+ -25  -4  14    0    0    0    0    0    0    0x
+         -25          -4          14  0.2849976       146.5207    
+         -24         -18          18  0.0000000E+00  0.0000000E+00
+  0.0000000E+00  0.0000000E+00  0.0000000E+00  0.0000000E+00
+ -24 -18  18    0    0    0    0    0    0    0x
+         -24         -18          18   37.40627      -171.4714    
+         -24          17          18  0.0000000E+00  0.0000000E+00
+  0.0000000E+00  0.0000000E+00  0.0000000E+00  0.0000000E+00
+ -24  17  18    0    0    0    0    0    0    0x
+         -24          17          18  0.2947511       2.356763    
+         -23           1           7  0.0000000E+00  0.0000000E+00
+  0.0000000E+00  0.0000000E+00  0.0000000E+00  0.0000000E+00
+ -23   1   7    0    0    0    0    0    0    0x
+         -23           1           7   203.2973       170.4126    
+         -22         -17           3  0.0000000E+00  0.0000000E+00
+  0.0000000E+00  0.0000000E+00  0.0000000E+00  0.0000000E+00
+ -22 -17   3    0    0    0    0    0    0    0x
+         -22         -17           3  0.3013885       172.3858    
+         -22          15          20  0.0000000E+00  0.0000000E+00
+  0.0000000E+00  0.0000000E+00  0.0000000E+00  0.0000000E+00
+ -22  15  20    0    0    0    0    0    0    0x
+         -22          15          20  0.2256424      -44.29924    
+         -21          -5          20  0.0000000E+00  0.0000000E+00
+  0.0000000E+00  0.0000000E+00  0.0000000E+00  0.0000000E+00
+ -21  -5  20    0    0    0    0    0    0    0x
+         -21          -5          20   636.3203       51.11183    
+         -20         -32           3  0.0000000E+00  0.0000000E+00
+  0.0000000E+00  0.0000000E+00  0.0000000E+00  0.0000000E+00
+ -20 -32   3    0    0    0    0    0    0    0x
+         -20         -32           3   21.47669      -31.55759    
+         -20           4          18  0.0000000E+00  0.0000000E+00
+  0.0000000E+00  0.0000000E+00  0.0000000E+00  0.0000000E+00
+ -20   4  18    0    0    0    0    0    0    0x
+         -20           4          18   518.9791      -128.4291    
+         -19         -20          22  0.0000000E+00  0.0000000E+00
+  0.0000000E+00  0.0000000E+00  0.0000000E+00  0.0000000E+00
+ -19 -20  22    0    0    0    0    0    0    0x
+         -19         -20          22  0.1145995       34.96101    
+         -19          11          13  0.0000000E+00  0.0000000E+00
+  0.0000000E+00  0.0000000E+00  0.0000000E+00  0.0000000E+00
+ -19  11  13    0    0    0    0    0    0    0x
+         -19          11          13   329.2244       102.4445    
+         -18         -14          22  0.0000000E+00  0.0000000E+00
+  0.0000000E+00  0.0000000E+00  0.0000000E+00  0.0000000E+00
+ -18 -14  22    0    0    0    0    0    0    0x
+         -18         -14          22   274.9242       70.48704    
+         -18          16           8  0.0000000E+00  0.0000000E+00
+  0.0000000E+00  0.0000000E+00  0.0000000E+00  0.0000000E+00
+ -18  16   8    0    0    0    0    0    0    0x
+         -18          16           8   1071.310       39.28912    
+         -17         -10           1  0.0000000E+00  0.0000000E+00
+  0.0000000E+00  0.0000000E+00  0.0000000E+00  0.0000000E+00
+ -17 -10   1    0    0    0    0    0    0    0x
+         -17         -10           1  0.3538789      -110.2617    
+         -17          19          16  0.0000000E+00  0.0000000E+00
+  0.0000000E+00  0.0000000E+00  0.0000000E+00  0.0000000E+00
+ -17  19  16    0    0    0    0    0    0    0x
+         -17          19          16   261.4518      -107.4424    
+         -16          -9          24  0.0000000E+00  0.0000000E+00
+  0.0000000E+00  0.0000000E+00  0.0000000E+00  0.0000000E+00
+ -16  -9  24    0    0    0    0    0    0    0x
+         -16          -9          24  0.1837772      -92.41402    
+         -16          20          24  0.0000000E+00  0.0000000E+00
+  0.0000000E+00  0.0000000E+00  0.0000000E+00  0.0000000E+00
+ -16  20  24    0    0    0    0    0    0    0x
+         -16          20          24   185.3416       160.0462    
+         -15          -9          18  0.0000000E+00  0.0000000E+00
+  0.0000000E+00  0.0000000E+00  0.0000000E+00  0.0000000E+00
+ -15  -9  18    0    0    0    0    0    0    0x
+         -15          -9          18   64.49267       58.10794    
+         -15          20           7  0.0000000E+00  0.0000000E+00
+  0.0000000E+00  0.0000000E+00  0.0000000E+00  0.0000000E+00
+ -15  20   7    0    0    0    0    0    0    0x
+         -15          20           7  0.5029179       48.27820    
+         -14         -10           2  0.0000000E+00  0.0000000E+00
+  0.0000000E+00  0.0000000E+00  0.0000000E+00  0.0000000E+00
+ -14 -10   2    0    0    0    0    0    0    0x
+         -14         -10           2   402.7737      -104.3469    
+         -14          17          32  0.0000000E+00  0.0000000E+00
+  0.0000000E+00  0.0000000E+00  0.0000000E+00  0.0000000E+00
+ -14  17  32    0    0    0    0    0    0    0x
+         -14          17          32  0.2023227       31.74619    
+         -13         -13           5  0.0000000E+00  0.0000000E+00
+  0.0000000E+00  0.0000000E+00  0.0000000E+00  0.0000000E+00
+ -13 -13   5    0    0    0    0    0    0    0x
+         -13         -13           5   385.6434      -99.23614    
+         -13          14          22  0.0000000E+00  0.0000000E+00
+  0.0000000E+00  0.0000000E+00  0.0000000E+00  0.0000000E+00
+ -13  14  22    0    0    0    0    0    0    0x
+         -13          14          22  0.2384608      -151.7732    
+         -12         -18          31  0.0000000E+00  0.0000000E+00
+  0.0000000E+00  0.0000000E+00  0.0000000E+00  0.0000000E+00
+ -12 -18  31    0    0    0    0    0    0    0x
+         -12         -18          31   118.8404      -146.2807    
+         -12          10           9  0.0000000E+00  0.0000000E+00
+  0.0000000E+00  0.0000000E+00  0.0000000E+00  0.0000000E+00
+ -12  10   9    0    0    0    0    0    0    0x
+         -12          10           9   402.4722      -30.07165    
+         -11         -24          29  0.0000000E+00  0.0000000E+00
+  0.0000000E+00  0.0000000E+00  0.0000000E+00  0.0000000E+00
+ -11 -24  29    0    0    0    0    0    0    0x
+         -11         -24          29  0.1812187       172.7141    
+         -11           4          36  0.0000000E+00  0.0000000E+00
+  0.0000000E+00  0.0000000E+00  0.0000000E+00  0.0000000E+00
+ -11   4  36    0    0    0    0    0    0    0x
+         -11           4          36  0.2647506      -165.8558    
+         -10         -33          15  0.0000000E+00  0.0000000E+00
+  0.0000000E+00  0.0000000E+00  0.0000000E+00  0.0000000E+00
+ -10 -33  15    0    0    0    0    0    0    0x
+         -10         -33          15  4.1665956E-02   139.8870    
+         -10          -2          32  0.0000000E+00  0.0000000E+00
+  0.0000000E+00  0.0000000E+00  0.0000000E+00  0.0000000E+00
+ -10  -2  32    0    0    0    0    0    0    0x
+         -10          -2          32   531.3004       135.8820    
+         -10          27          16  0.0000000E+00  0.0000000E+00
+  0.0000000E+00  0.0000000E+00  0.0000000E+00  0.0000000E+00
+ -10  27  16    0    0    0    0    0    0    0x
+         -10          27          16  0.6681333       170.7600    
+          -9          -9          37  0.0000000E+00  0.0000000E+00
+  0.0000000E+00  0.0000000E+00  0.0000000E+00  0.0000000E+00
+  -9  -9  37    0    0    0    0    0    0    0x
+          -9          -9          37   114.6499       79.72213    
+          -9          18          25  0.0000000E+00  0.0000000E+00
+  0.0000000E+00  0.0000000E+00  0.0000000E+00  0.0000000E+00
+  -9  18  25    0    0    0    0    0    0    0x
+          -9          18          25  0.3236337      -117.0861    
+          -8         -16           1  0.0000000E+00  0.0000000E+00
+  0.0000000E+00  0.0000000E+00  0.0000000E+00  0.0000000E+00
+  -8 -16   1    0    0    0    0    0    0    0x
+          -8         -16           1   857.1251      -116.7484    
+          -8          10          16  0.0000000E+00  0.0000000E+00
+  0.0000000E+00  0.0000000E+00  0.0000000E+00  0.0000000E+00
+  -8  10  16    0    0    0    0    0    0    0x
+          -8          10          16   392.2957      -172.3409    
+          -7         -26           4  0.0000000E+00  0.0000000E+00
+  0.0000000E+00  0.0000000E+00  0.0000000E+00  0.0000000E+00
+  -7 -26   4    0    0    0    0    0    0    0x
+          -7         -26           4  0.4217048       152.7419    
+          -7           2           3  0.0000000E+00  0.0000000E+00
+  0.0000000E+00  0.0000000E+00  0.0000000E+00  0.0000000E+00
+  -7   2   3    0    0    0    0    0    0    0x
+          -7           2           3  0.2515079       37.76357    
+          -7          31          17  0.0000000E+00  0.0000000E+00
+  0.0000000E+00  0.0000000E+00  0.0000000E+00  0.0000000E+00
+  -7  31  17    0    0    0    0    0    0    0x
+          -7          31          17   201.7682       96.22926    
+          -6          -7           6  0.0000000E+00  0.0000000E+00
+  0.0000000E+00  0.0000000E+00  0.0000000E+00  0.0000000E+00
+  -6  -7   6    0    0    0    0    0    0    0x
+          -6          -7           6   1.307037      -160.9762    
+          -6          19          16  0.0000000E+00  0.0000000E+00
+  0.0000000E+00  0.0000000E+00  0.0000000E+00  0.0000000E+00
+  -6  19  16    0    0    0    0    0    0    0x
+          -6          19          16  6.4158693E-02   166.8780    
+          -5         -17           6  0.0000000E+00  0.0000000E+00
+  0.0000000E+00  0.0000000E+00  0.0000000E+00  0.0000000E+00
+  -5 -17   6    0    0    0    0    0    0    0x
+          -5         -17           6   211.2711      -176.4482    
+          -5           9          11  0.0000000E+00  0.0000000E+00
+  0.0000000E+00  0.0000000E+00  0.0000000E+00  0.0000000E+00
+  -5   9  11    0    0    0    0    0    0    0x
+          -5           9          11   861.3533       29.87711    
+          -4         -30          21  0.0000000E+00  0.0000000E+00
+  0.0000000E+00  0.0000000E+00  0.0000000E+00  0.0000000E+00
+  -4 -30  21    0    0    0    0    0    0    0x
+          -4         -30          21   322.5379       127.6569    
+          -4          -1          19  0.0000000E+00  0.0000000E+00
+  0.0000000E+00  0.0000000E+00  0.0000000E+00  0.0000000E+00
+  -4  -1  19    0    0    0    0    0    0    0x
+          -4          -1          19  0.3572873      -97.72480    
+          -4          27           3  0.0000000E+00  0.0000000E+00
+  0.0000000E+00  0.0000000E+00  0.0000000E+00  0.0000000E+00
+  -4  27   3    0    0    0    0    0    0    0x
+          -4          27           3  0.5567568      -164.7267    
+          -3         -11          13  0.0000000E+00  0.0000000E+00
+  0.0000000E+00  0.0000000E+00  0.0000000E+00  0.0000000E+00
+  -3 -11  13    0    0    0    0    0    0    0x
+          -3         -11          13   1023.109      -18.87782    
+          -3          15           1  0.0000000E+00  0.0000000E+00
+  0.0000000E+00  0.0000000E+00  0.0000000E+00  0.0000000E+00
+  -3  15   1    0    0    0    0    0    0    0x
+          -3          15           1   1123.667      -5.481838    
+          -2         -23          26  0.0000000E+00  0.0000000E+00
+  0.0000000E+00  0.0000000E+00  0.0000000E+00  0.0000000E+00
+  -2 -23  26    0    0    0    0    0    0    0x
+          -2         -23          26  0.2445217      -129.0891    
+          -2           4          13  0.0000000E+00  0.0000000E+00
+  0.0000000E+00  0.0000000E+00  0.0000000E+00  0.0000000E+00
+  -2   4  13    0    0    0    0    0    0    0x
+          -2           4          13   767.7379       25.12513    
+          -2          34          17  0.0000000E+00  0.0000000E+00
+  0.0000000E+00  0.0000000E+00  0.0000000E+00  0.0000000E+00
+  -2  34  17    0    0    0    0    0    0    0x
+          -2          34          17   63.48869       117.8185    
+          -1          -7          35  0.0000000E+00  0.0000000E+00
+  0.0000000E+00  0.0000000E+00  0.0000000E+00  0.0000000E+00
+  -1  -7  35    0    0    0    0    0    0    0x
+          -1          -7          35   177.7743      0.3456413    
+          -1          19          31  0.0000000E+00  0.0000000E+00
+  0.0000000E+00  0.0000000E+00  0.0000000E+00  0.0000000E+00
+  -1  19  31    0    0    0    0    0    0    0x
+          -1          19          31   127.2062       77.04038    
+           0         -18          29  0.0000000E+00  0.0000000E+00
+  0.0000000E+00  0.0000000E+00  0.0000000E+00  0.0000000E+00
+   0 -18  29    0    0    0    0    0    0    0x
+           0         -18          29   34.05257      0.1155934    
+           0           8          17  0.0000000E+00  0.0000000E+00
+  0.0000000E+00  0.0000000E+00  0.0000000E+00  0.0000000E+00
+   0   8  17    0    0    0    0    0    0    0x
+           0           8          17   228.3327       179.8514    
+           1         -34          19  0.0000000E+00  0.0000000E+00
+  0.0000000E+00  0.0000000E+00  0.0000000E+00  0.0000000E+00
+   1 -34  19    0    0    0    0    0    0    0x
+           1         -34          19  0.2851918       81.86646    
+           1          -4          13  0.0000000E+00  0.0000000E+00
+  0.0000000E+00  0.0000000E+00  0.0000000E+00  0.0000000E+00
+   1  -4  13    0    0    0    0    0    0    0x
+           1          -4          13  0.5293577       52.78808    
+           1          21          32  0.0000000E+00  0.0000000E+00
+  0.0000000E+00  0.0000000E+00  0.0000000E+00  0.0000000E+00
+   1  21  32    0    0    0    0    0    0    0x
+           1          21          32   189.7917       8.752503    
+           2         -17          25  0.0000000E+00  0.0000000E+00
+  0.0000000E+00  0.0000000E+00  0.0000000E+00  0.0000000E+00
+   2 -17  25    0    0    0    0    0    0    0x
+           2         -17          25  0.3474120       116.9243    
+           2           8          33  0.0000000E+00  0.0000000E+00
+  0.0000000E+00  0.0000000E+00  0.0000000E+00  0.0000000E+00
+   2   8  33    0    0    0    0    0    0    0x
+           2           8          33   290.3591      -103.8502    
+           3         -33          18  0.0000000E+00  0.0000000E+00
+  0.0000000E+00  0.0000000E+00  0.0000000E+00  0.0000000E+00
+   3 -33  18    0    0    0    0    0    0    0x
+           3         -33          18   35.94275       165.6398    
+           3          -4          33  0.0000000E+00  0.0000000E+00
+  0.0000000E+00  0.0000000E+00  0.0000000E+00  0.0000000E+00
+   3  -4  33    0    0    0    0    0    0    0x
+           3          -4          33  0.2378903       37.39279    
+           3          22          21  0.0000000E+00  0.0000000E+00
+  0.0000000E+00  0.0000000E+00  0.0000000E+00  0.0000000E+00
+   3  22  21    0    0    0    0    0    0    0x
+           3          22          21  0.3033377       139.8483    
+           4         -16          23  0.0000000E+00  0.0000000E+00
+  0.0000000E+00  0.0000000E+00  0.0000000E+00  0.0000000E+00
+   4 -16  23    0    0    0    0    0    0    0x
+           4         -16          23   826.7895       128.0828    
+           4           9          34  0.0000000E+00  0.0000000E+00
+  0.0000000E+00  0.0000000E+00  0.0000000E+00  0.0000000E+00
+   4   9  34    0    0    0    0    0    0    0x
+           4           9          34  0.3124059      -150.9922    
+           5         -30           5  0.0000000E+00  0.0000000E+00
+  0.0000000E+00  0.0000000E+00  0.0000000E+00  0.0000000E+00
+   5 -30   5    0    0    0    0    0    0    0x
+           5         -30           5  0.6250294       40.75359    
+           5          -2          15  0.0000000E+00  0.0000000E+00
+  0.0000000E+00  0.0000000E+00  0.0000000E+00  0.0000000E+00
+   5  -2  15    0    0    0    0    0    0    0x
+           5          -2          15  0.1844278       92.46555    
+           5          24          28  0.0000000E+00  0.0000000E+00
+  0.0000000E+00  0.0000000E+00  0.0000000E+00  0.0000000E+00
+   5  24  28    0    0    0    0    0    0    0x
+           5          24          28  6.3336924E-02   93.60847    
+           6         -14          37  0.0000000E+00  0.0000000E+00
+  0.0000000E+00  0.0000000E+00  0.0000000E+00  0.0000000E+00
+   6 -14  37    0    0    0    0    0    0    0x
+           6         -14          37   94.45003      -82.54016    
+           6          12          11  0.0000000E+00  0.0000000E+00
+  0.0000000E+00  0.0000000E+00  0.0000000E+00  0.0000000E+00
+   6  12  11    0    0    0    0    0    0    0x
+           6          12          11   1822.213      -92.54198    
+           7         -26          11  0.0000000E+00  0.0000000E+00
+  0.0000000E+00  0.0000000E+00  0.0000000E+00  0.0000000E+00
+   7 -26  11    0    0    0    0    0    0    0x
+           7         -26          11  0.6270051       40.30061    
+           7           1          22  0.0000000E+00  0.0000000E+00
+  0.0000000E+00  0.0000000E+00  0.0000000E+00  0.0000000E+00
+   7   1  22    0    0    0    0    0    0    0x
+           7           1          22   433.4656      -151.4418    
+           7          29          18  0.0000000E+00  0.0000000E+00
+  0.0000000E+00  0.0000000E+00  0.0000000E+00  0.0000000E+00
+   7  29  18    0    0    0    0    0    0    0x
+           7          29          18   150.8425       102.4682    
+           8          -9          21  0.0000000E+00  0.0000000E+00
+  0.0000000E+00  0.0000000E+00  0.0000000E+00  0.0000000E+00
+   8  -9  21    0    0    0    0    0    0    0x
+           8          -9          21  0.1368030      -24.62866    
+           8          17          10  0.0000000E+00  0.0000000E+00
+  0.0000000E+00  0.0000000E+00  0.0000000E+00  0.0000000E+00
+   8  17  10    0    0    0    0    0    0    0x
+           8          17          10  0.2804044       14.70422    
+           9         -19          14  0.0000000E+00  0.0000000E+00
+  0.0000000E+00  0.0000000E+00  0.0000000E+00  0.0000000E+00
+   9 -19  14    0    0    0    0    0    0    0x
+           9         -19          14   752.0480       1.022123    
+           9           7          22  0.0000000E+00  0.0000000E+00
+  0.0000000E+00  0.0000000E+00  0.0000000E+00  0.0000000E+00
+   9   7  22    0    0    0    0    0    0    0x
+           9           7          22   645.9849      -105.4765    
+          10         -31          12  0.0000000E+00  0.0000000E+00
+  0.0000000E+00  0.0000000E+00  0.0000000E+00  0.0000000E+00
+  10 -31  12    0    0    0    0    0    0    0x
+          10         -31          12  0.5270956       102.0941    
+          10          -2          38  0.0000000E+00  0.0000000E+00
+  0.0000000E+00  0.0000000E+00  0.0000000E+00  0.0000000E+00
+  10  -2  38    0    0    0    0    0    0    0x
+          10          -2          38   358.6775       151.4170    
+          10          26          21  0.0000000E+00  0.0000000E+00
+  0.0000000E+00  0.0000000E+00  0.0000000E+00  0.0000000E+00
+  10  26  21    0    0    0    0    0    0    0x
+          10          26          21   53.32104       33.25392    
+          11          -9           1  0.0000000E+00  0.0000000E+00
+  0.0000000E+00  0.0000000E+00  0.0000000E+00  0.0000000E+00
+  11  -9   1    0    0    0    0    0    0    0x
+          11          -9           1   206.0872       7.532164    
+          11          17          10  0.0000000E+00  0.0000000E+00
+  0.0000000E+00  0.0000000E+00  0.0000000E+00  0.0000000E+00
+  11  17  10    0    0    0    0    0    0    0x
+          11          17          10   448.0596      -51.66373    
+          12         -17          17  0.0000000E+00  0.0000000E+00
+  0.0000000E+00  0.0000000E+00  0.0000000E+00  0.0000000E+00
+  12 -17  17    0    0    0    0    0    0    0x
+          12         -17          17  0.3671167       19.75023    
+          12          10           1  0.0000000E+00  0.0000000E+00
+  0.0000000E+00  0.0000000E+00  0.0000000E+00  0.0000000E+00
+  12  10   1    0    0    0    0    0    0    0x
+          12          10           1   387.9307      -78.94289    
+          13         -24           4  0.0000000E+00  0.0000000E+00
+  0.0000000E+00  0.0000000E+00  0.0000000E+00  0.0000000E+00
+  13 -24   4    0    0    0    0    0    0    0x
+          13         -24           4  0.6815833       126.9202    
+          13           4           9  0.0000000E+00  0.0000000E+00
+  0.0000000E+00  0.0000000E+00  0.0000000E+00  0.0000000E+00
+  13   4   9    0    0    0    0    0    0    0x
+          13           4           9  0.3976370       118.7218    
+          14         -33          15  0.0000000E+00  0.0000000E+00
+  0.0000000E+00  0.0000000E+00  0.0000000E+00  0.0000000E+00
+  14 -33  15    0    0    0    0    0    0    0x
+          14         -33          15  0.5480190      -35.72444    
+          14          -1          20  0.0000000E+00  0.0000000E+00
+  0.0000000E+00  0.0000000E+00  0.0000000E+00  0.0000000E+00
+  14  -1  20    0    0    0    0    0    0    0x
+          14          -1          20  0.4285173      -44.35260    
+          14          29           9  0.0000000E+00  0.0000000E+00
+  0.0000000E+00  0.0000000E+00  0.0000000E+00  0.0000000E+00
+  14  29   9    0    0    0    0    0    0    0x
+          14          29           9  0.3872570       132.0735    
+          15          -5          36  0.0000000E+00  0.0000000E+00
+  0.0000000E+00  0.0000000E+00  0.0000000E+00  0.0000000E+00
+  15  -5  36    0    0    0    0    0    0    0x
+          15          -5          36   59.23339       11.82195    
+          15          24          22  0.0000000E+00  0.0000000E+00
+  0.0000000E+00  0.0000000E+00  0.0000000E+00  0.0000000E+00
+  15  24  22    0    0    0    0    0    0    0x
+          15          24          22  0.2914453       111.0478    
+          16          -7          29  0.0000000E+00  0.0000000E+00
+  0.0000000E+00  0.0000000E+00  0.0000000E+00  0.0000000E+00
+  16  -7  29    0    0    0    0    0    0    0x
+          16          -7          29  0.1922314      -108.4789    
+          16          22          11  0.0000000E+00  0.0000000E+00
+  0.0000000E+00  0.0000000E+00  0.0000000E+00  0.0000000E+00
+  16  22  11    0    0    0    0    0    0    0x
+          16          22          11   574.2438      -88.38366    
+          17          -7           3  0.0000000E+00  0.0000000E+00
+  0.0000000E+00  0.0000000E+00  0.0000000E+00  0.0000000E+00
+  17  -7   3    0    0    0    0    0    0    0x
+          17          -7           3   1393.481       75.64346    
+          17          22           4  0.0000000E+00  0.0000000E+00
+  0.0000000E+00  0.0000000E+00  0.0000000E+00  0.0000000E+00
+  17  22   4    0    0    0    0    0    0    0x
+          17          22           4  0.1137385      -166.3712    
+          18          -6           3  0.0000000E+00  0.0000000E+00
+  0.0000000E+00  0.0000000E+00  0.0000000E+00  0.0000000E+00
+  18  -6   3    0    0    0    0    0    0    0x
+          18          -6           3   511.8564       86.84935    
+          18          23          23  0.0000000E+00  0.0000000E+00
+  0.0000000E+00  0.0000000E+00  0.0000000E+00  0.0000000E+00
+  18  23  23    0    0    0    0    0    0    0x
+          18          23          23  0.3327892      -65.90717    
+          19          -4          23  0.0000000E+00  0.0000000E+00
+  0.0000000E+00  0.0000000E+00  0.0000000E+00  0.0000000E+00
+  19  -4  23    0    0    0    0    0    0    0x
+          19          -4          23  0.1070362      -17.50124    
+          19          28          16  0.0000000E+00  0.0000000E+00
+  0.0000000E+00  0.0000000E+00  0.0000000E+00  0.0000000E+00
+  19  28  16    0    0    0    0    0    0    0x
+          19          28          16  0.5840752       6.526248    
+          20           1          13  0.0000000E+00  0.0000000E+00
+  0.0000000E+00  0.0000000E+00  0.0000000E+00  0.0000000E+00
+  20   1  13    0    0    0    0    0    0    0x
+          20           1          13  0.6265301       117.5365    
+          21         -24          10  0.0000000E+00  0.0000000E+00
+  0.0000000E+00  0.0000000E+00  0.0000000E+00  0.0000000E+00
+  21 -24  10    0    0    0    0    0    0    0x
+          21         -24          10  0.2818111       91.36037    
+          21           8          10  0.0000000E+00  0.0000000E+00
+  0.0000000E+00  0.0000000E+00  0.0000000E+00  0.0000000E+00
+  21   8  10    0    0    0    0    0    0    0x
+          21           8          10  0.2648600      -120.6527    
+          22         -13           2  0.0000000E+00  0.0000000E+00
+  0.0000000E+00  0.0000000E+00  0.0000000E+00  0.0000000E+00
+  22 -13   2    0    0    0    0    0    0    0x
+          22         -13           2  0.4172410      -174.9160    
+          22          18          17  0.0000000E+00  0.0000000E+00
+  0.0000000E+00  0.0000000E+00  0.0000000E+00  0.0000000E+00
+  22  18  17    0    0    0    0    0    0    0x
+          22          18          17   232.0561      -93.09229    
+          23          -1           1  0.0000000E+00  0.0000000E+00
+  0.0000000E+00  0.0000000E+00  0.0000000E+00  0.0000000E+00
+  23  -1   1    0    0    0    0    0    0    0x
+          23          -1           1   424.6358      -111.5762    
+          24         -20          13  0.0000000E+00  0.0000000E+00
+  0.0000000E+00  0.0000000E+00  0.0000000E+00  0.0000000E+00
+  24 -20  13    0    0    0    0    0    0    0x
+          24         -20          13   415.1797      -120.6569    
+          24          14          11  0.0000000E+00  0.0000000E+00
+  0.0000000E+00  0.0000000E+00  0.0000000E+00  0.0000000E+00
+  24  14  11    0    0    0    0    0    0    0x
+          24          14          11   455.5119      -70.99811    
+          25          -1          20  0.0000000E+00  0.0000000E+00
+  0.0000000E+00  0.0000000E+00  0.0000000E+00  0.0000000E+00
+  25  -1  20    0    0    0    0    0    0    0x
+          25          -1          20   40.22740       70.63074    
+          26         -14          20  0.0000000E+00  0.0000000E+00
+  0.0000000E+00  0.0000000E+00  0.0000000E+00  0.0000000E+00
+  26 -14  20    0    0    0    0    0    0    0x
+          26         -14          20   85.79574      -150.7029    
+          26          24           2  0.0000000E+00  0.0000000E+00
+  0.0000000E+00  0.0000000E+00  0.0000000E+00  0.0000000E+00
+  26  24   2    0    0    0    0    0    0    0x
+          26          24           2   22.67926       32.31866    
+          27          12          12  0.0000000E+00  0.0000000E+00
+  0.0000000E+00  0.0000000E+00  0.0000000E+00  0.0000000E+00
+  27  12  12    0    0    0    0    0    0    0x
+          27          12          12  0.2836518      -93.49513    
+          28           6           5  0.0000000E+00  0.0000000E+00
+  0.0000000E+00  0.0000000E+00  0.0000000E+00  0.0000000E+00
+  28   6   5    0    0    0    0    0    0    0x
+          28           6           5   610.5801       134.7599    
+          29           3          13  0.0000000E+00  0.0000000E+00
+  0.0000000E+00  0.0000000E+00  0.0000000E+00  0.0000000E+00
+  29   3  13    0    0    0    0    0    0    0x
+          29           3          13   152.7512       106.9166    
+          30           4          13  0.0000000E+00  0.0000000E+00
+  0.0000000E+00  0.0000000E+00  0.0000000E+00  0.0000000E+00
+  30   4  13    0    0    0    0    0    0    0x
+          30           4          13   75.82156      -153.8434    
+          31          10          15  0.0000000E+00  0.0000000E+00
+  0.0000000E+00  0.0000000E+00  0.0000000E+00  0.0000000E+00
+  31  10  15    0    0    0    0    0    0    0x
+          31          10          15  5.8494296E-02   125.6668    
+          33         -10           7  0.0000000E+00  0.0000000E+00
+  0.0000000E+00  0.0000000E+00  0.0000000E+00  0.0000000E+00
+  33 -10   7    0    0    0    0    0    0    0x
+          33         -10           7  0.2685182       53.37719    
+          35         -11           9  0.0000000E+00  0.0000000E+00
+  0.0000000E+00  0.0000000E+00  0.0000000E+00  0.0000000E+00
+  35 -11   9    0    0    0    0    0    0    0x
+          35         -11           9   75.51643      -159.0998    
+
+ ===================================
+  FINISHED READING REFLECTIONS 
+ ===================================
+
+ Number of reflections   output =   123661
+
+ Number in Working Set (indep)  =        0
+ Number in Free    Set (indep)  =        0
+ Number  Missing       (indep)  =   123661
+ Number in Excluded Set (indep) =   123661
+
+ Number in Working Set (total)  =        0
+ Number in Free    Set (total)  =        0
+ Number  Missing       (total)  =   123661
+ Number in Excluded Set (total) =   123661
+
+ Number rejected by EXCLUDE k/w =        0
+
+
+
+ No. of reflections a) altogether b) to output c) independent   by resolution bins
+   0.00014 -   0.00467       640         0         0
+   0.00467 -   0.00920       724         0         0
+   0.00920 -   0.01374       933         0         0
+   0.01374 -   0.01827      1049         0         0
+   0.01827 -   0.02280      1175         0         0
+   0.02280 -   0.02733      1270         0         0
+   0.02733 -   0.03187      1387         0         0
+   0.03187 -   0.03640      1479         0         0
+   0.03640 -   0.04093      1568         0         0
+   0.04093 -   0.04546      1665         0         0
+   0.04546 -   0.05000      1751         0         0
+   0.05000 -   0.05453      1804         0         0
+   0.05453 -   0.05906      1896         0         0
+   0.05906 -   0.06359      1972         0         0
+   0.06359 -   0.06813      2023         0         0
+   0.06813 -   0.07266      2090         0         0
+   0.07266 -   0.07719      2167         0         0
+   0.07719 -   0.08172      2176         0         0
+   0.08172 -   0.08626      2307         0         0
+   0.08626 -   0.09079      2353         0         0
+   0.09079 -   0.09532      2470         0         0
+   0.09532 -   0.09985      2352         0         0
+   0.09985 -   0.10439      2569         0         0
+   0.10439 -   0.10892      2573         0         0
+   0.10892 -   0.11345      2600         0         0
+   0.11345 -   0.11798      2683         0         0
+   0.11798 -   0.12252      2690         0         0
+   0.12252 -   0.12705      2829         0         0
+   0.12705 -   0.13158      2812         0         0
+   0.13158 -   0.13611      2929         0         0
+   0.13611 -   0.14065      2834         0         0
+   0.14065 -   0.14518      3031         0         0
+   0.14518 -   0.14971      2952         0         0
+   0.14971 -   0.15424      3053         0         0
+   0.15424 -   0.15878      3142         0         0
+   0.15878 -   0.16331      3097         0         0
+   0.16331 -   0.16784      3238         0         0
+   0.16784 -   0.17237      3211         0         0
+   0.17237 -   0.17691      3250         0         0
+   0.17691 -   0.18144      3329         0         0
+   0.18144 -   0.18597      3444         0         0
+   0.18597 -   0.19050      3301         0         0
+   0.19050 -   0.19503      3502         0         0
+   0.19503 -   0.19957      3450         0         0
+   0.19957 -   0.20410      3528         0         0
+   0.20410 -   0.20863      3555         0         0
+   0.20863 -   0.21316      3567         0         0
+   0.21316 -   0.21770      3680         0         0
+   0.21770 -   0.22223      3623         0         0
+   0.22223 -   0.22676      1938         0         0
+<B><FONT COLOR="#FF0000"><!--SUMMARY_BEGIN-->
+ MTZ2VARIOUS:  Normal termination
+Times: User:       0.5s System:    0.2s Elapsed:     0:01  
+</pre>
+</html>
+<!--SUMMARY_END--></FONT></B>

@@ -1,0 +1,54 @@
+% scratch. Used to test temporary commands.
+
+fv = isosurface(gkxy,1.2);
+%fv = isosurface(ts111,8.899e4);
+p=patch(fv);
+set(p,'FaceColor','red','EdgeColor','none');
+daspect([1,1,1])
+view(3); % axis tight
+axis([1 57 1 57 1 57])
+% axis equal
+camlight 
+lighting gouraud
+box on
+
+
+
+
+% plot rms and CC
+% figure(2)
+% rms_cc = importdata('rms_cc.mat');
+% L = size(rms_cc);
+% x = linspace(1,L(1),L(1));
+% plot(x,rms_cc(:,1),'b',x,rms_cc(:,2),'r')
+% x1=xlabel('interation');
+% set(x1,'FontSize', 15);
+% set(x1,'FontWeight','bold');
+% y1 = ylabel('CC and rms');
+% set(y1,'FontSize',15);
+% set(y1,'FontWeight','bold')
+% fleg = legend('rms','CC');
+% set(fleg,'FontSize',15);
+% set(fleg,'FontWeight','bold');
+% saveas(gcf,'rms_cc.png');
+
+
+
+%sum(sum(sum(diff_pattern(18:23,18:23,64:74))))
+
+% another support with one layer with zeros on side.
+
+
+% %# get a sample data with 0 for empty, 1 for solid
+% %[~,~,~,v] = flow;
+% v = F;
+% v = double( v<-3 );
+% 
+% %# visualize the volume
+% p = patch( isosurface(v,0) );                 %# create isosurface patch
+% isonormals(v, p)                              %# compute and set normals
+% set(p, 'FaceColor','r', 'EdgeColor','none')   %# set surface props
+% daspect([1 1 1])                              %# axes aspect ratio
+% view(3), axis vis3d tight, box on, grid on    %# set axes props
+% camproj perspective                           %# use perspective projection
+% camlight, lighting phong, alpha(.5)           %# enable light, set transparency
